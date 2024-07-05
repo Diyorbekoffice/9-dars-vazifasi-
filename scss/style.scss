@@ -11,9 +11,12 @@ body{
     font-family: 'Inter';
 }
 .container{
+    display: flex;
+    justify-content: center;
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
+    
 }
 .header{
     padding-top: 32px;
@@ -175,7 +178,45 @@ body{
     }
 }
 
+@media (max-width: 1600px) {
+    .container{
+        min-width: 1320px;
+    }
+}
 
+@media (max-width: 1320px) {
+    .container{
+        min-width: 1200px;
+    }
+}
+
+@media (max-width: 1140px) {
+   .container{
+     min-width: 962px;
+   }
+    
+}
+
+@media ( max-width: 960px) {
+   .container{
+     min-width: 768px;
+   }
+}
+
+@media (max-width: 720px) {
+   .container{
+        min-width: 576px;
+        .search{
+            display: none;
+        }
+   }
+}
+
+@media (min-width: 540px) {
+   .container{
+     max-width: 576px;
+   }
+}
 
 
 
