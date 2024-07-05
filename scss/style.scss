@@ -214,8 +214,12 @@ body{
 
 @media (max-width: 540px) {
    .container{
-     max-width: 80%;
+        max-width: 80%;
    }
+
+   .header-container .logo-search .logo img{
+    width: 230px;
+    }
 }
 
 
