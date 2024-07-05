@@ -180,41 +180,41 @@ body{
 
 @media (max-width: 1600px) {
     .container{
-        min-width: 1320px;
+        max-width: 1320px;
     }
 }
 
 @media (max-width: 1320px) {
     .container{
-        min-width: 1200px;
+        max-width: 1200px;
     }
 }
 
 @media (max-width: 1140px) {
    .container{
-     min-width: 962px;
+     max-width: 962px;
    }
     
 }
 
 @media ( max-width: 960px) {
    .container{
-     min-width: 768px;
+     max-width: 768px;
    }
 }
 
 @media (max-width: 720px) {
    .container{
-        min-width: 576px;
+        max-width: 576px;
         .search{
             display: none;
         }
    }
 }
 
-@media (min-width: 540px) {
+@media (max-width: 540px) {
    .container{
-     max-width: 576px;
+     max-width: 80%;
    }
 }
 
