@@ -163,10 +163,16 @@ body{
         position: absolute;
         flex-direction: column;
         padding: 20px;
-        background-color: #866AFA;
+        background-color: #3a3939;
         width: 100%;
         left: 0;
         top: 100px;
+        
+        .title_link a{
+            color: #F1F1F2;
+        }
+
+        
         
 
     }
