@@ -160,6 +160,7 @@ body{
 
     .header-container .nav-list{
         position: absolute;
+        z-index: 5;
         flex-direction: column;
         padding: 20px;
         background-color: #717171;
